@@ -53,19 +53,32 @@ Body {
   width: 100%;
   text-align: center;
   margin:0px;
-  padding:20px;
-}
-
-
-}
-
-.mission .mission-text {
-  display:flex;
-  background-color: black;
-  border: 1px solid black;
-  z-index: 4;
+  padding:15px;
 }
 
 .teamonth {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:1000px;
+}
+
+.teamonth h2, .teamonth h2 {
+  margin:60px 0px 0px 0px;
+  padding 15px;
+}
+
+.teas {
+display: inline-flex;
+flex-wrap: wrap;
+}
+
+.berry,
+.teas .spiced,
+.teas .donuts,
+.teas .myrtle,
+.teas .bedford {
+  width: 300px;
+  hight: 200px;
 }
