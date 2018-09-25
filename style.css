@@ -29,7 +29,12 @@ Body {
       color: seashell;
       text-decoration: underline;
   }
+/* main */
 
+.main {
+  display: inline-flex;
+  flex-direction: column;
+}
 /* mission section */
 .mission {
   padding-top:70px;
@@ -40,10 +45,27 @@ Body {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   justify-content: center;
   align-items: center;
+  z-index: 1;
   }
 
-.mission .mission-text {
-  background-color: black;
-  z-index: 4;
+.mission h2, .mission h4{
+  background: black;
+  width: 100%;
+  text-align: center;
+  margin:0px;
+  padding:20px;
+}
 
+
+}
+
+.mission .mission-text {
+  display:flex;
+  background-color: black;
+  border: 1px solid black;
+  z-index: 4;
+}
+
+.teamonth {
+  display: flex;
 }
