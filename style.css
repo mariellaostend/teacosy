@@ -34,6 +34,7 @@ Body {
 .main {
   display: inline-flex;
   flex-direction: column;
+  justify-content: center;
 }
 /* mission section */
 .mission {
@@ -70,15 +71,16 @@ Body {
 }
 
 .teas {
-display: inline-flex;
-flex-wrap: wrap;
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+justify-content: center;
 }
 
-.berry,
+.teas .berry,
 .teas .spiced,
 .teas .donuts,
 .teas .myrtle,
 .teas .bedford {
-  width: 300px;
-  hight: 200px;
+  margin:15px;
 }
